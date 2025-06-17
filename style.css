@@ -30,9 +30,9 @@ header{
 nav a{
    color:white;
    padding: 10px;
-   font-size:20px;
-   font-weight: 700; 
-   text-decoration: none;
+   font-size: 20px;
+   font-weight : 700; 
+   text-decoration : none;
 
 }
 .container{
@@ -154,4 +154,152 @@ padding-bottom: 100px;
 }
 .section-image {
     width: 100px;
+}
+.about{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom:100PX;
+}
+/* .about-image{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+.about-image img{
+    width: 100%;
+    height: auto;
+}
+.per{
+    padding-left: 60px;
+    padding-top: 20px;
+
+}
+.detail{
+    font-size: 37px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #140748;
+    margin-top: 100px;
+    margin-bottom: 32px;
+}
+.in-text {
+    font-size: 16px;
+     word-spacing: .5em;
+     line-height: 1.4em;
+    color: rgb(107, 107, 107);
+    /* font-weight: 400; */
+    width: 85%;
+    margin-bottom: 2rem;
+}
+.tags ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    line-height:2em ;
+}
+.tags ul li {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+    color: #2d2d2d;
+}
+ .tags i{        
+        color: #7961e8;
+         margin-right: 10px; 
+         font-size: 15px;    
+}
+.per button {
+    margin-top: 50px;
+    font-size: 12px;
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #140748;
+    cursor: pointer;
+
+     transition: .3s ease;
+}
+.per button:hover {
+    background-color: #7961e8;
+}
+ #education { 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top:120px;
+}
+.box-image{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-image img{
+     width: 100%;
+    height: auto;
+}
+.education-data{
+    padding-left: 70px;
+
+}
+.education-heading{
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #140748;
+    margin-bottom: 30px;
+}
+.education-path{
+    border-left: 2px dotted gray;
+    line-height: 1.1em;
+}
+.education-box{
+    padding-left: 50px;
+    padding-top: 15px;
+
+    position: relative;
+
+    p{
+        padding-bottom: 30px;
+    }
+}
+.course{
+    position: absolute;
+    top: 0;
+    left: -1%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.education-box span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #6ec1e4;
+}
+.path-row{
+    width: 8%;
+
+    hr{
+         border: none; 
+         border-top: 2px dotted gray; 
+    }
+}
+.course-name{
+    margin-left: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+}
+
+.edu-year{
+    font-size: 20px;
+     font-weight: 300;
+    margin-top: 28px;
+    margin-bottom: 22px;
+}
+.education-box p {
+    font-size: 17px;
+    color: gray;
+    width: 80%;
+    line-height:1.5em;
 }
