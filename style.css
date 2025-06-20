@@ -223,10 +223,12 @@ padding-bottom: 100px;
 .per button:hover {
     background-color: #7961e8;
 }
+/* education section  */
  #education { 
     display: grid;
     grid-template-columns: 50% 50%;
     padding-top:120px;
+    padding-bottom: 100px;
 }
 .box-image{
     margin-top: 50px;
@@ -290,6 +292,12 @@ padding-bottom: 100px;
     font-family: "Bebas Neue", sans-serif;
     font-size: 22px;
 }
+.present{
+    margin-left: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 500; }
 
 .edu-year{
     font-size: 20px;
@@ -302,4 +310,71 @@ padding-bottom: 100px;
     color: gray;
     width: 80%;
     line-height:1.5em;
+}
+/* service section  */
+#services{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: #fafbfd;
+}
+.service-heading{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    color: #140748;
+    text-transform: uppercase;
+}
+/* .upper-services-box{
+    display: flex;
+    flex-direction: column;
+} */
+.service-text{
+     text-align: center; 
+    place-self: center;
+    color:282E37;
+    line-height:1.6em;
+    width: 90%;
+    padding: 20px 150px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.services-provide {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 50px 90px;
+}
+.service-card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+.service-card img{
+    width: 220px;
+    height: auto;
+}
+.service-card .card-text {
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #140748;
+    text-transform: uppercase;
+}
+.all-services{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    padding: 0px 90px;
+}
+.service{
+    width: 100%;
+    gap: 20px;
+    padding: 16px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px #c0c1c385;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    color: #140748;
 }
