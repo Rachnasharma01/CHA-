@@ -373,8 +373,222 @@ padding-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 10px #c0c1c385;
+     box-shadow: 0 0 10px #c0c1c385; 
     font-family: "Bebas Neue", sans-serif;
     font-size: 20px;
     color: #140748;
+}
+/* meeting-image */
+.meeting-image{
+    width: 100%;
+    object-fit: cover;
+}
+.meeting-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* Testimonials Section */
+.testimonials{
+    background-color: #fafbfd;
+    position: relative;
+}
+.logo-images {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 11rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.logo-images img{
+    width: 100%;
+    height: auto;
+}
+.reviews{
+    width: 100%;
+    position: absolute;
+    top: -20%;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.review{
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(211, 211, 211, 0.624);
+}
+.review-text{
+    font-size: 14px;
+    width: 15rem;
+    color: gray;
+    margin-bottom: 30px;
+}
+.person-details{
+     display: flex; 
+    align-items: center; 
+    column-gap: 20px;
+}
+.person-details img{
+    width: 50px;
+    border-radius: 50%;
+}
+.person-name{
+    font-weight: 600;
+    font-size: 15px;
+}
+.person-role{
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+/* Contact Section */
+.contact-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.my-details{
+    padding-left: 70px;
+    padding-top: 150px;
+    padding-bottom: 15rem;
+    width: 25rem;
+}
+.query{
+    font-size: 38px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #140748;
+    margin-bottom: 30px;
+}
+.location-text {
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 12px;
+    color: #140748;
+}
+.location{
+    font-size: 20px;
+    color: gray;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.my-details hr{
+    border: none;
+    border-top: 1px solid rgba(128, 128, 128, 0.317);
+}
+.call-us{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #140748;
+    margin-bottom: 12px;
+}
+.number{
+    font-size: 20px;
+    color: rgb(79, 77, 77);
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+.contact-form-box{
+    background-color: #7961e8;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form{
+    position: absolute;
+    left:-20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.48);
+}
+.form{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: white;
+    /* box-shadow: 0 0 20px rgba(128, 128, 128, 0.48); */
+}
+.contact-form input{
+    width: 100%;
+    padding: 15px 30px;
+    border: 1px solid gray;
+}
+.contact-form input:focus{
+    border: 1px solid gray;
+}
+.contact-form textarea{
+    width: 100%;
+    height: 10rem;
+    padding: 15px 30px;
+    border: 1px solid gray;
+}
+.contact-form button{
+    width: fit-content;
+    padding: 10px 50px;
+    background-color: #313636;
+    border: none;
+    color: white;
+    font-weight: 600;
+    transition: .3s ease;
+}
+.contact-form button:hover{
+    background-color: #4d68ff;
+}
+/* footer section */
+.footer{
+    background:#140748;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+
+}
+.footer-heading{
+      padding-top: 50px; 
+    font-size: 58px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+}
+.hr{
+    width:100%;
+
+}
+.copyright{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 14px;
+    padding-bottom: 60px;
+}
+.footer-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+     place-self: center;
+    margin-bottom: 40px;
+}
+.footer-icons i{
+    padding: 10px;
+    font-size: 20px;
+}
+.footer-icons i:nth-child(1) {
+    background-color: #375090;
+}
+.footer-icons i:nth-child(2) {
+    background-color: #1e95de;
+}
+.footer-icons i:nth-child(3) {
+    background-color: #016caa;
+}
+.footer-icons i:nth-child(4) {
+    background-color: #ea4c89;
+}
+.footer-icons i:nth-child(5) {
+    background-color: #bd2120;
 }
